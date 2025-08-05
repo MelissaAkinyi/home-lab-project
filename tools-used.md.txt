@@ -1,0 +1,60 @@
+# 🖥️ Home Lab Specifications
+
+This document outlines the hardware, software, and virtual environment specifications for my personal home lab, created for hands-on learning during the Cisco Certified Ethical Hacker (CEH) course.
+
+---
+
+## 💻 Host Machine Specifications
+
+| Component        | Description                       |
+|------------------|-----------------------------------|
+| **Laptop/PC**     | [Your laptop model] (e.g., HP Pavilion 15) |
+| **Operating System** | Windows 10 / Windows 11 / Ubuntu (specify) |
+| **Processor (CPU)** | Intel Core i5 / i7 or AMD Ryzen 5 (specify) |
+| **RAM**            | 8 GB (recommended 16 GB)          |
+| **Storage**        | 512 GB SSD (or HDD with free space) |
+| **Virtualization** | Enabled in BIOS                   |
+
+---
+
+## 🧰 Virtualization Platform
+
+| Software     | Version          |
+|--------------|------------------|
+| VirtualBox   | 7.x.x             |
+| Extension Pack | Installed (for USB & network support) |
+
+---
+
+## 📦 Virtual Machine (.OVA)
+
+| VM Name / Course Lab | Cisco Certified Ethical Hacker Lab |
+|----------------------|------------------------------------|
+| File Format          | `.ova`                             |
+| OS Inside VM         | Likely Kali Linux / Ubuntu variant |
+| Tools Included       | Burp Suite, Wireshark, Nmap, Metasploit, etc. |
+| Default Credentials  | Provided in course documentation   |
+
+---
+
+## 🌐 Networking Setup
+
+| Type             | Description                           |
+|------------------|---------------------------------------|
+| **Default Mode** | NAT (for Internet access)             |
+| **Optional Mode**| Host-Only Adapter or Internal Network (for attack simulation) |
+| **Other Devices**| Can add Metasploitable2, DVWA, or Windows VM for practice |
+
+---
+
+## 🧪 Recommended Add-Ons
+
+| Tool              | Purpose                             |
+|-------------------|--------------------------------------|
+| Metasploitable2   | Vulnerable target for penetration testing |
+| OWASP Juice Shop  | Web app vulnerability practice       |
+| DVWA              | Damn Vulnerable Web App (for XSS, SQLi, etc.) |
+
+---
+
+> 💡 *This lab is optimized for learning cybersecurity in a safe, controlled, and isolated environment.*

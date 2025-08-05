@@ -1,0 +1,77 @@
+# 🧰 Installation Guide: Cisco Ethical Hacking Home Lab (.OVA Setup)
+
+This guide walks through the steps I followed to install and run a pre-configured `.ova` virtual machine used for the Cisco Certified Ethical Hacker (CEH) course.
+
+---
+
+## 🔧 What You’ll Need
+
+- A computer with at least:
+  - 8 GB RAM (recommended)
+  - 50+ GB free disk space
+  - Virtualization enabled in BIOS
+- VirtualBox (or VMware)
+- Cisco CEH `.ova` file
+
+---
+
+## 🪜 Step-by-Step Installation Instructions
+
+### 1️⃣ Download and Install VirtualBox
+
+- Go to [https://www.virtualbox.org](https://www.virtualbox.org)
+- Download and install VirtualBox for your operating system
+- Optionally install the Extension Pack for USB and network support
+
+---
+
+### 2️⃣ Download the `.OVA` File
+
+- Get the `.ova` file from the Cisco CEH course or your training portal
+- Save it in a known location (e.g., `Downloads` or `Documents` folder)
+
+---
+
+### 3️⃣ Import the `.OVA` File
+
+1. Open **VirtualBox**
+2. Click **File → Import Appliance**
+3. Browse and select the `.ova` file
+4. Click **Next**
+5. Review settings (adjust RAM or CPU if needed)
+6. Click **Import**
+
+> 💡 This step may take a few minutes depending on the file size.
+
+---
+
+### 4️⃣ Start the Virtual Machine
+
+- Once imported, you’ll see the new VM listed in VirtualBox
+- Click **Start** to launch the virtual machine
+- The machine will boot into the pre-configured ethical hacking environment
+
+---
+
+### 5️⃣ Test Your Setup
+
+- Log in using the default credentials (usually provided in the course material)
+- Check network connectivity (NAT or Bridged Adapter)
+- Launch tools like Kali Linux terminal, Wireshark, or Burp Suite (based on what’s included)
+
+---
+
+## 🧪 Optional: Configure Network for Practice Labs
+
+- You can create an **internal network** or use **host-only adapter** to simulate attacks without Internet exposure
+- Optionally add other VMs (e.g., Metasploitable2, DVWA) for penetration testing practice
+
+---
+
+## ✅ Success!
+
+You now have a fully functional ethical hacking lab running from a `.ova` file using VirtualBox. This lab environment supports safe, hands-on learning of tools and techniques covered in the Cisco CEH course.
+
+---
+
+> 📝 *For troubleshooting tips or additional configurations, check the Cisco lab manual or VirtualBox documentation.*
